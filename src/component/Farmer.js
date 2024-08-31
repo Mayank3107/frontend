@@ -26,7 +26,7 @@ const FarmerDashboard = () => {
     const handleLogout = () => {
 
       localStorage.removeItem('token');
-      navigate('https://backend-b9da.onrender.com', {replace:true});
+      navigate('/', {replace:true});
     };
 
     const renderComponent = () => {
