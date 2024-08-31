@@ -12,7 +12,7 @@ const Login = () => {
 
         const url = userType === 'farmer' ? `https://backend-b9da.onrender.com/auth/login-Farmer` : `https://backend-b9da.onrender.com/auth/login-Buyer`;
 
-        try {
+        try {[]
             const response = await fetch(url, {
                 method: 'POST',
                 headers: {
